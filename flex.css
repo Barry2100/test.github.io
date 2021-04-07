@@ -1,0 +1,41 @@
+h1
+{
+	text-align: center;
+	background: red;
+	color: #fff
+}
+
+
+
+
+
+
+
+
+#container
+{
+	display: flex;
+	/*flex-direction: column-reverse;*/
+	/*justify-content: center;*/
+	justify-content: space-between;
+	border: 1px solid #444;
+}
+
+.element
+{
+	width: 150px;
+	height: 100px;
+
+}
+.element:nth-child(1)
+{
+	background: orange;
+}
+.element:nth-child(2)
+{
+	background-color: blue;
+}
+.element:nth-child(3)
+{
+	background-color: #ad6;
+}
